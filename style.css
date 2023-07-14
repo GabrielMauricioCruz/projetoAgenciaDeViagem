@@ -1,0 +1,76 @@
+  
+  
+  
+
+  
+  body {
+  font-family: 'Open Sans', sans-serif;
+  
+  text-align: center; /* alinhar os textos/conteúdo/elementos do body ao centro */
+  margin: 0;
+  }
+
+
+  #container {
+    width: 626px;
+    margin: auto; /* Para voltar ao alinhamento feito com text-align */
+    margin: 0 auto 64px;
+  }
+
+  #container figure img {
+    margin-bottom: 32px;
+
+  }
+
+  #container section h2 {
+    margin-bottom: 16px;
+  }
+
+  h2 {
+  font-family: 'Dosis', 'sans-serif';
+
+  font-size: 32px;
+  font-weight: 500;
+
+  }
+
+  h2 span {
+    font-weight: 700;
+  }
+
+  span{
+    color: #EE24FF;
+  }
+
+  strong {
+    color: #3F3D56;;
+  }
+
+  p, #footer {
+    color: #828282;
+    font-family:'Open Sans', sans-serif; ;
+    font-size: 15px;
+
+    line-height: 22px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  #footer #line {
+    width: 391px;
+    height: 0px;
+    margin: auto;
+
+    border: 1px solid #ECEFF2;
+
+    margin-bottom: 16px;
+
+  }
+
+
+  #footer a + a {
+    margin-left: 42px;
+    margin-bottom: 40px;
+  }
